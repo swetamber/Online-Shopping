@@ -27,7 +27,7 @@
 
     <!-- Custom styles for this template -->
    <%--  <link href="${css}/myapp.css" rel="stylesheet"> --%> 
-	<link href="<spring:url value="assets/css/application.css" />" rel="stylesheet"> 
+	<link href="<spring:url value="assets/css/myapp.css" />" rel="stylesheet"> 
   </head>
 
   <body>

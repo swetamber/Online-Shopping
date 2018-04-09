@@ -18,8 +18,8 @@
 	<!-- Loading static resources --> 
 
 	<mvc:annotation-driven></mvc:annotation-driven> 
-	<mvc:resources location="/assets/" mapping="/assets/**"></mvc:resources>
-	<!-- <mvc:resources location="/webjars/" mapping="/webjars/**"></mvc:resources> --> 
+	<mvc:resources location="/WEB-INF/assets/" mapping="/resources/**"></mvc:resources>
+	<!-- <mvc:resources location="/webjars/" mapping="/webjars/**"></mvc:resources> -->  
 </beans> 
 
 
