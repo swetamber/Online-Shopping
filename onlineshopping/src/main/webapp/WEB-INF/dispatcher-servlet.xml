@@ -8,7 +8,9 @@
 
      
 	<context:component-scan base-package="org.swet.onlineshopping"></context:component-scan>
-  
+  	<context:component-scan base-package="org.swet.shoppingbackend.dao"></context:component-scan>
+  	<context:component-scan base-package="org.swet.shoppingbackend.daoimpl"></context:component-scan>
+  	
 	<bean id="viewResolver"  
 		class="org.springframework.web.servlet.view.InternalResourceViewResolver">
 		<property name="prefix" value="/WEB-INF/views/"></property>

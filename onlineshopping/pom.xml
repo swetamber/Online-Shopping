@@ -8,6 +8,14 @@
 	<name>onlineshopping Maven Webapp</name>
 	<url>http://maven.apache.org</url>
 	<dependencies>
+	
+	<!-- Link backend project -->
+	
+		<dependency>
+			<groupId>org.swet</groupId>
+			<artifactId>shoppingbackend</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
 
 		<!-- JAVA EE API -->
 
