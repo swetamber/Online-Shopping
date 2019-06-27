@@ -8,9 +8,19 @@
   
   <!-- Configuring Front Controller -->
   
+  <!-- <context-param>
+  	<param-name>contextConfigLocation</param-name>
+  	<param-value>classpath:org/swet/shoppingbackend/config/hibernate-config.xml</param-value>
+  </context-param> -->
+  
+  
   <servlet>
   	<servlet-name>dispatcher</servlet-name>
   	<servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
+  	<!-- <init-param>
+  		<param-name>contextConfigLocation</param-name>
+  		<param-value>/WEB-INF/dispatcher-servlet.xml</param-value>
+  	</init-param> -->
   </servlet>
   
   <servlet-mapping>
